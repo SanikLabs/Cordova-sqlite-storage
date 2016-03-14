@@ -407,6 +407,7 @@
 
         rowsAffected: response.rowsAffected or 0
         insertId: response.insertId or undefined
+        filas: response.rows || []
 
       handler this, payload
 
@@ -645,4 +646,3 @@
 
 #### vim: set filetype=coffee :
 #### vim: set expandtab :
-

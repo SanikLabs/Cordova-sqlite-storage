@@ -1,5 +1,9 @@
 # Changes
 
+## 0.8.2-sanik
+
+- filas for raw rows array access
+
 ## 0.8.2
 
 - Workaround fix for empty readTransaction issue (litehelpers/Cordova-sqlite-storage#409)
